@@ -19,4 +19,5 @@ Route::get('/', function () {
 Route::prefix('/admin')->group(function(){
 	Route::any('index','Admin\IndexController@index');//后台首页
     Route::any('add','Admin\IndexController@add');//测试添加页面
+    Route::any('list','Admin\IndexController@list');//测试添加页面
 });
