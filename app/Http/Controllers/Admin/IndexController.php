@@ -16,5 +16,6 @@ class IndexController extends Controller
     public function add()
     {
         return view('admin/add');
+	echo "ewqweqwe";
     }
 }
