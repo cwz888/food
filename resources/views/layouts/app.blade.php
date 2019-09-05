@@ -190,7 +190,7 @@
 <script src="{{asset('js/layui.js')}}"></script>
 <script src="{{asset('js/easypiechart.js')}}"></script>
 <script src="{{asset('js/easypiechart-data.js')}}"></script>
-
+<script src="{{asset('js/jquery.js')}}"></script>
 <script src="{{asset('js/Lightweight-Chart/jquery.chart.js')}}"></script>
 
 <!-- Custom Js -->
