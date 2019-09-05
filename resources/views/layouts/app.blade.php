@@ -110,6 +110,9 @@
                     <a href="tab-panel.html"><i class="fa fa-qrcode"></i> 商户列表</a>
                 </li>
                 <li>
+                    <a href="{{url('cetemeun/add')}}"><i class="fa fa-qrcode"></i> 菜品分类</a>
+                </li>
+                <li>
                     <a href="{{url('admin/add')}}"><i class="fa fa-qrcode"></i> 菜品添加</a>
                 </li>
                 <li>
