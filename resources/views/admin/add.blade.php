@@ -29,19 +29,13 @@
         <div class="layui-form-item">
             <div class="layui-input-block">
                 <button class="layui-btn layui-btn-radius layui-btn-normal" lay-submit lay-filter="formDemo">立即上架</button>
-                <button type="reset" class="layui-btn layui-btn-radius layui-btn-danger">重置</button>
+                <button type="reset" id="bth" class="layui-btn layui-btn-radius layui-btn-danger">重置</button>
             </div>
         </div>
     </form>
     <script>
-        layui.use(['form','upload'], function(){
-            var form = layui.form;
-
-            //监听提交
-            form.on('submit(formDemo)', function(data){
-                layer.msg(JSON.stringify(data.field));
-                return false;
-            });
+        $('#bth').click(function(){
+            alert(23432423);
         });
     </script>
 @endsection
