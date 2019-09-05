@@ -10,7 +10,6 @@
     <button type="submit" id="sub" class="btn btn-default">确定</button>
 
 </form>
-<script src=" {{ asset('/js/jquery.min.js') }} "></script>
 <script>
     $('#sub').click(function() {
         // alert(1);
