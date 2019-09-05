@@ -16,6 +16,25 @@
     <!-- Google Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <link href="{{asset('css/layui.css')}}" rel="stylesheet" />
+    <!-- JS Scripts-->
+    <!-- jQuery Js -->
+    <script src="{{asset('js/jquery-1.10.2.js')}}"></script>
+    <!-- Bootstrap Js -->
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+
+    <!-- Metis Menu Js -->
+    <script src="{{asset('js/jquery.metisMenu.js')}}"></script>
+    <!-- Morris Chart Js -->
+    <script src="{{asset('js/morris/raphael-2.1.0.min.js')}}"></script>
+    <script src="{{asset('js/morris/morris.js')}}"></script>
+    <script src="{{asset('js/layui.js')}}"></script>
+    <script src="{{asset('js/easypiechart.js')}}"></script>
+    <script src="{{asset('js/easypiechart-data.js')}}"></script>
+    <script src="{{asset('js/jquery.min.js')}}"></script>
+    <script src="{{asset('js/Lightweight-Chart/jquery.chart.js')}}"></script>
+
+    <!-- Custom Js -->
+    <script src="{{asset('js/custom-scripts.js')}}"></script>
 </head>
 
 <body>
@@ -176,27 +195,6 @@
     <!-- /. PAGE WRAPPER  -->
 </div>
 <!-- /. WRAPPER  -->
-<!-- JS Scripts-->
-<!-- jQuery Js -->
-<script src="{{asset('js/jquery-1.10.2.js')}}"></script>
-<!-- Bootstrap Js -->
-<script src="{{asset('js/bootstrap.min.js')}}"></script>
-
-<!-- Metis Menu Js -->
-<script src="{{asset('js/jquery.metisMenu.js')}}"></script>
-<!-- Morris Chart Js -->
-<script src="{{asset('js/morris/raphael-2.1.0.min.js')}}"></script>
-<script src="{{asset('js/morris/morris.js')}}"></script>
-<script src="{{asset('js/layui.js')}}"></script>
-<script src="{{asset('js/easypiechart.js')}}"></script>
-<script src="{{asset('js/easypiechart-data.js')}}"></script>
-<script src="{{asset('js/jquery.js')}}"></script>
-<script src="{{asset('js/Lightweight-Chart/jquery.chart.js')}}"></script>
-
-<!-- Custom Js -->
-<script src="{{asset('js/custom-scripts.js')}}"></script>
-
-
 </body>
 
 </html>
