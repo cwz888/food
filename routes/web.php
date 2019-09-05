@@ -26,5 +26,6 @@ Route::prefix('/admin')->group(function(){
 Route::prefix('/cetemeun')->group(function(){
 	Route::any('add','Admin\CatemenuController@add');//菜品种类添加
 	Route::any('adddo','Admin\CatemenuController@adddo');//执行添加
+	Route::any('list','Admin\CatemenuController@list');//列表
     
 });

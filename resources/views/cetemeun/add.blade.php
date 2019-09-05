@@ -15,6 +15,10 @@
         // alert(1);
         var cate_name = $('#cate_name').val();
         // console.log(cate_name);
+        if (cate_name==''){
+            alert('分类名不可为空');
+            return false;
+        }
         $.ajax({
             url:"{{url('cetemeun/adddo')}}",
             data:{cate_name:cate_name},
