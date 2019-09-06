@@ -12,11 +12,4 @@ class IndexController extends Controller
     {
         return view('admin/index');
     }
-    //菜品添加页面
-    public function add()
-    {
-        return view('admin/add');
-	echo "ewqweqwe";
-    }
-    //
 }
