@@ -12,15 +12,15 @@
         <label for="exampleInputEmail1">菜品价格：</label>
         <input type="text" id="cate_name" class="form-control" id="exampleInputEmail1" placeholder="请输入菜单分类名">
     </div>
-
-    <div class="form-group">
-        <label for="exampleInputEmail1">所属菜系：</label>
-          <select name="" id="" class="form-control">
+<select name="" id="" >
               <option>--请选择--</option>
               @foreach($data as $k => $v)
-                <li><a href="#">{{$v['cate_name']}}</a></li>
+                <option>{{$v['cate_name']}}</option>
               @endforeach
           </select>
+    <div class="form-group">
+        <label for="exampleInputEmail1">所属菜系：</label>
+          
     </div>
 
     <div class="form-group">
