@@ -8,7 +8,6 @@
         <input type="email" id="cate_name" class="form-control" id="exampleInputEmail1" placeholder="请输入菜单分类名">
     </div>
     <button type="submit" id="sub" class="btn btn-default">确定</button>
-
 </form>
 <script>
     $('#sub').click(function() {
