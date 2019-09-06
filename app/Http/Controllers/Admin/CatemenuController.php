@@ -12,7 +12,7 @@ class CatemenuController extends Controller
     public function add()
     {
         // echo 1;
-        return view('cetemeun.add');
+        return view('admin.cetemeun.add');
     }
 
     // 执行添加页面
@@ -36,6 +36,6 @@ class CatemenuController extends Controller
     {
         $data = Catemenu::get();
         // dd($data);
-        return view('cetemeun.list',['data'=>$data]);
+        return view('admin.cetemeun.list',['data'=>$data]);
     }
 }

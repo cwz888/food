@@ -12,6 +12,6 @@ class CuisineController extends Controller
     {
     	//查找分类
     	$data=Catemenu::get()->toArray();
-        return view('cuisine/add',['data'=>$data]);
+        return view('admin.cuisine.add',['data'=>$data]);
     }
 }
