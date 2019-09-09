@@ -29,5 +29,21 @@ Route::prefix('/cetemeun')->group(function(){
 	Route::any('add','Admin\CatemenuController@add');//菜品种类添加
 	Route::any('adddo','Admin\CatemenuController@adddo');//执行添加
 	Route::any('list','Admin\CatemenuController@list');//列表
+	Route::any('del/{id}','Admin\CatemenuController@del');//删除
+
     
+});
+
+// 商户列表
+Route::prefix('/seller')->group(function(){
+	Route::any('list','Admin\SellerController@list');//商户展示
+	Route::any('del/{id}','Admin\SellerController@del');//删除
+	Route::any('personage','Admin\SellerController@personage');//个人信息
+	Route::any('update','Admin\SellerController@update');//个人信息修改
+
+
+	
+
+
+	
 });
