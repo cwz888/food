@@ -31,6 +31,7 @@ class CatemenuController extends Controller
         }
     }
 
+    
     // 列表展示页面
     public function list()
     {

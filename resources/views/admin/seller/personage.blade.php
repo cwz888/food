@@ -4,7 +4,6 @@
 <form action="" method="post" enctype="multipart/form-data">
 @csrf
 
-    
   
 <input type="hidden" name="seller_id" id="seller_id" value="{{$data->seller_id}}">
   <div class="form-group">

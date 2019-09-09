@@ -14,7 +14,6 @@
             <td>操作</td>
         </tr>
         
-            
             @foreach($data as $v)
             
             <tr align='center'>

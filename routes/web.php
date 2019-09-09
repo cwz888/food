@@ -31,7 +31,6 @@ Route::prefix('/cetemeun')->group(function(){
 	Route::any('list','Admin\CatemenuController@list');//列表
 	Route::any('del/{id}','Admin\CatemenuController@del');//删除
 
-    
 });
 
 // 商户列表

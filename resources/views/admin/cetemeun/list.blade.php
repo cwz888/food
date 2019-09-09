@@ -22,7 +22,6 @@
                 <td>{{$v->cate_name}}</td>
                 <td><a href="{{url('cetemeun/del',['id'=>$v->cate_id])}}">删除</a></td>
 
-
             </tr>
         @endforeach
        

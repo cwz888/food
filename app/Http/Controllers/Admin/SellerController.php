@@ -17,6 +17,7 @@ class SellerController extends Controller
         return view('admin.seller.list',['data'=>$data]);
     }
 
+    
 
     //删除
     public function del($id){
