@@ -32,3 +32,16 @@ Route::prefix('/cetemeun')->group(function(){
 	Route::any('list','Admin\CatemenuController@list');//列表
     
 });
+
+//注册
+Route::prefix('/register')->group(function(){
+    Route::any('register','Admin\RegisterController@register');//商户注册
+    Route::any('success','Admin\RegisterController@success');//入库
+    Route::any('index','Admin\RegisterController@index');//注册
+});
+//登录
+Route::prefix('/login')->group(function(){
+    Route::any('userLogin','Admin\LoginController@userlogin');//用户登录
+    Route::any('sellerLogin','Admin\LoginController@sellerlogin');//卖家注册
+    Route::any('sellerLogin_do','Admin\LoginController@sellerLogin_do');//执行卖家登录
+});
