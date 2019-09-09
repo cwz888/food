@@ -35,6 +35,11 @@
 
     <!-- Custom Js -->
     <script src="{{asset('js/custom-scripts.js')}}"></script>
+    <style type="text/css">
+        .role input[type='file']{opacity:0;}
+        .role{border:1px solid #c9cccf;text-align:center;width:200px;height:200px;line-height:200px;font-size:18px;margin-top:15px;float:left;margin-left:5px;}
+        .role img{width: 198px;height: 198px;display: none;}
+    </style>
 </head>
 
 <body>
