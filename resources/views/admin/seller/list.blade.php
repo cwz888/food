@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<form action="{{url('category/doadd')}}" method="post" enctype="multipart/form-data">
+<form action="" method="post" enctype="multipart/form-data">
 @csrf
 
   <div class="form-group">
@@ -9,18 +9,18 @@
 
     <table class="table-striped table-bordered table-hover table-responsive" width="900" >
         <tr align='center'>
-            <td>分类编号</td>
-            <td>分类名称</td>
+            <td>商户编号</td>
+            <td>商户名称</td>
             <td>操作</td>
         </tr>
         
-            
             @foreach($data as $v)
             
             <tr align='center'>
-                <td>{{$v->cate_id}}</td>
-                <td>{{$v->cate_name}}</td>
-                <td><a href="{{url('cetemeun/del',['id'=>$v->cate_id])}}">删除</a></td>
+                <td>{{$v->seller_id}}</td>
+                <td>{{$v->seller_name}}</td>
+                <td><a href="{{url('seller/del',['id'=>$v->seller_id])}}">删除</a></td>
+
 
             </tr>
         @endforeach

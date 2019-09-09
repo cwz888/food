@@ -31,11 +31,21 @@ class CatemenuController extends Controller
         }
     }
 
+    
     // 列表展示页面
     public function list()
     {
         $data = Catemenu::get();
         // dd($data);
         return view('admin.cetemeun.list',['data'=>$data]);
+    }
+    //删除
+    public function del($id)
+    {
+        $res = Catemenu::where('cate_id',$id)->delete();
+        if ($res) {
+            return \redirect('cetemeun/list');
+        }
+        
     }
 }

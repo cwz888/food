@@ -8,6 +8,7 @@ use App\Model\Catemenu;
 use App\Model\Menu;
 class CuisineController extends Controller
 {
+    
      //菜品添加页面
     public function add()
     {

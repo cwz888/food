@@ -112,7 +112,7 @@
                     <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-user">
-                    <li><a href="#"><i class="fa fa-user fa-fw"></i>个人信息</a>
+                    <li><a href="{{url('seller/personage')}}"><i class="fa fa-user fa-fw"></i>个人信息</a>
                     </li>
                     <li><a href="#"><i class="fa fa-gear fa-fw"></i> 信息设置</a>
                     </li>
@@ -131,10 +131,13 @@
         <div class="sidebar-collapse">
             <ul class="nav" id="main-menu">
                 <li>
-                    <a href="tab-panel.html"><i class="fa fa-qrcode"></i> 商户列表</a>
+                    <a href="{{url('seller/list')}}"><i class="fa fa-qrcode"></i> 商户列表</a>
                 </li>
                 <li>
                     <a href="{{url('cetemeun/add')}}"><i class="fa fa-qrcode"></i> 菜品分类</a>
+                </li>
+                <li>
+                    <a href="{{url('cetemeun/list')}}"><i class="fa fa-qrcode"></i> 分类列表</a>
                 </li>
                 <li>
                     <a href="{{url('cuisine/add')}}"><i class="fa fa-qrcode"></i> 菜品添加</a>
@@ -206,3 +209,4 @@
 </body>
 
 </html>
+

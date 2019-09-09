@@ -4,12 +4,10 @@ namespace App\model;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Catemenu extends Model
+class User extends Model
 {
-    
-    protected $table = 'catemenu';
-    protected $pk = 'cart_id';
+    protected $table = 'user';
+    protected $pk = 'user_id';
     public $timestamps = false;
     protected $guarded = [];
-
 }
